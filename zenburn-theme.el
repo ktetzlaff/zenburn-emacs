@@ -1572,6 +1572,12 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,zenburn-bg-1))))
    `(yascroll:thumb-fringe ((t (:background ,zenburn-bg-1 :foreground ,zenburn-bg-1))))
+
+;;;;; replace+
+   ;;occur-highlight-linenum
+   ;;minibuffer-prompt
+   `(replacep-msg-emphasis ((t (:foreground ,zenburn-red-1))))
+   `(replacep-msg-emphasis2 ((t (:foreground ,zenburn-green+1))))
    ))
 
 ;;; Theme Variables
