@@ -1526,6 +1526,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(whitespace-indentation ((t (:background ,zenburn-yellow :foreground ,zenburn-red))))
    `(whitespace-empty ((t (:background ,zenburn-yellow))))
    `(whitespace-space-after-tab ((t (:background ,zenburn-yellow :foreground ,zenburn-red))))
+;;;;; irfc
+   `(irfc-head-name-face ((t (:foreground ,zenburn-red :underline t))))
+   `(irfc-head-number-face ((t (:foreground ,zenburn-red :underline t))))
+   `(irfc-requirement-keyword-face ((t (:foreground ,zenburn-yellow))))
+   `(irfc-rfc-link-face ((t (:foreground ,zenburn-blue+1 :underline t))))
+   `(irfc-reference-face ((t (:foreground ,zenburn-blue-2 :underline t))))
 ;;;;; wanderlust
    `(wl-highlight-folder-few-face ((t (:foreground ,zenburn-red-2))))
    `(wl-highlight-folder-many-face ((t (:foreground ,zenburn-red-1))))
