@@ -88,7 +88,7 @@ To see the full list of color names you can override, consult the
 
 The theme supports scaling the font size for some headings and titles as well
 as using a variable-pitch font for those. To enable this, use the following
-settings:
+settings **before** loading `zenburn-theme`:
 
 ```elisp
 ;; use variable-pitch fonts for some headings and titles
@@ -107,7 +107,9 @@ like this:
 
 ![Scaled screenshot](screenshots/scaled.png)
 
-## Ugly colors in the terminal Emacs version
+## FAQ
+
+### Wrong colors in the terminal Emacs version
 
 If your Emacs looks considerably uglier in a terminal (compared to the
 GUI version) try adding this to your `.bashrc` or `.zshrc`:
@@ -118,7 +120,7 @@ export TERM=xterm-256color
 
 Source the `.bashrc` (or `.zshrc`) file and start Emacs again.
 
-# Bugs & Improvements
+## Bugs & Improvements
 
 Please, report any problems that you find on the project's integrated
 issue tracker. If you've added some improvements and you want them
@@ -126,7 +128,25 @@ included upstream don't hesitate to send me a patch or even better - a
 GitHub pull request. [These](https://github.com/bbatsov/zenburn-emacs/contributors)
 contributors have done so.
 
+## Donate
+
 You can support my work on Zenburn and [all my other projects](https://github.com/bbatsov)
 via [Patreon](https://www.patreon.com/bbatsov).
+
+## Contributors
+
+Here's a [list](https://github.com/bbatsov/zenburn-emacs/contributors) of all the people who have contributed to the
+development of Zenburn for Emacs.
+
+## Changelog
+
+A fairly extensive changelog is available [here](CHANGELOG.md).
+
+## License
+
+Copyright © 2010-2020 Bozhidar Batsov and
+[contributors](https://github.com/bbatsov/zenburn-emacs/contributors).
+
+Distributed under the GNU General Public License, version 3
 
 [badge-license]: https://img.shields.io/badge/license-GPL_3-green.svg
